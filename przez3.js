@@ -1,9 +1,14 @@
 function przeztrzy(a) {
-    if (isNaN(a)) {
-        console.log("wpisana wartość nie jest liczbą!!!");
+    let b = a.toString();
+
+console.log(b);
+
+    //if (isNaN(b)) {                                                       //jak wpisze ciagl liter i liczb to glupieje
+    //    console.log("wpisana wartość nie jest liczbą!!!");
     }
+    
     else {
-        if (a.substr(a.length-2) % 3 == 0) {
+        if (b.substr(b.length - 2) % 3 == 0) {
             console.log("podzielna przez 3");
         }
         else {
@@ -13,4 +18,4 @@ function przeztrzy(a) {
     }
 
 }
-przeztrzy(1111111115);
+przeztrzy(12);
